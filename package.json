@@ -1,0 +1,13 @@
+{
+  "name": "barrierefreiheit",
+  "version": "1.0.0",
+  "description": "Website for showing barriers for humans",
+  "main": "index.js",
+  "author": "Markus Szarvas",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
