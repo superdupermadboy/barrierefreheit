@@ -48,11 +48,9 @@ module.exports = {
         ],
       },
       {
-        test: /\.(webmanifest)$/,
-        use: [
-          'file-loader',
-        ],
-      },
+        test: /\.(html)$/,
+        use: ['html-loader'],
+     },
     ]
   }
 };
