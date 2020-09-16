@@ -1,21 +1,21 @@
 .intro {
-    background-color: $black;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
-    h1 {
-        color: $white;
-        position: absolute;
-        left: 20px;
-        top: 20px;
-    }
+  h1 {
+    color: $white;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+  }
 
-    img {
-        margin: 50px;
-        animation-name: rotating;
-        animation-duration: 6s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
+  img {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: rotating;
+    animation-timing-function: linear;
+    margin: 50px;
+  }
 }
