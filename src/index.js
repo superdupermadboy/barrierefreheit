@@ -54,5 +54,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     setTimeout(() => {
         intro.style.display = 'none';
-    }, 0);
+    }, 2000);
 });
