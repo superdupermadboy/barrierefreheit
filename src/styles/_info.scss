@@ -1,0 +1,19 @@
+.info {
+
+    .body {
+
+        &--right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .kleinGedrucktes {
+                font-size: 10px;
+            }
+        }
+
+        &--left {
+
+        }
+    }
+}
