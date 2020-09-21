@@ -1,2 +1,2 @@
 import "./index.scss";
-import "../assets/fonts/stylesheet.scss";
+import "../static/fonts/stylesheet.scss";
