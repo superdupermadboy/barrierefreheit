@@ -1,0 +1,12 @@
+.home {
+    background-image: url("../static/17x24_Dosentelefon.png");
+    background-repeat: round;
+    
+    &__hello {
+        position: absolute;
+        top: 59%;
+        left: 46%;
+        font-style: italic;
+        font-size: 70px;
+    }
+}
