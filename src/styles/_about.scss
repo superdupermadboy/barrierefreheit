@@ -1,33 +1,17 @@
 .about {
 
-    &__body {
-        display: flex;
-        margin: 20px;
-        font-size: 25px;
-
-        > div {
-            flex: 1;
-        }
-
-        .title {
-            width: 240px;
-            margin-top: 30px;
-        }
+    .body {
 
         &--right {
 
             img {
-                max-height: calc(50vh - 73px);
+                max-height: calc(50vh - 100px);
                 object-fit: cover;
                 object-position: top;
             }
         }
 
         &--left {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-right: 25px;
 
             .end {
                 text-align: right;

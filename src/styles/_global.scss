@@ -12,6 +12,35 @@ $red: #b30000;
 section {
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .body {
+    display: flex;
+    margin: 20px;
+    font-size: 25px;
+    height: 100%;
+
+    .title {
+        width: 240px;
+        margin-top: 30px;
+    }
+
+    > div {
+      flex: 1;
+    }
+
+    &--right {
+
+    }
+
+    &--left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 25px;
+    }
+  }
 }
 
 h1 {
