@@ -3,7 +3,14 @@
     .body {
 
         &--right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
+            img {
+                object-fit: contain;
+                width: 100%;
+            }
         }
 
         &--left {
