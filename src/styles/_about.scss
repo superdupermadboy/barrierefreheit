@@ -2,10 +2,17 @@
 
     .body {
 
+        .title {
+            margin-bottom: 15px;
+        }
+
         &--right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
             img {
-                max-height: calc(50vh - 100px);
+                max-height: calc(50vh - 110px);
                 object-fit: cover;
                 object-position: top;
             }

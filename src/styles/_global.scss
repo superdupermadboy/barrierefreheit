@@ -18,11 +18,11 @@ section {
   .body {
     display: flex;
     margin: 20px;
-    font-size: 25px;
+    font-size: 1.92vw;
     height: 100%;
 
     .title {
-        width: 240px;
+        width: 300px;
         margin-top: 30px;
     }
 
@@ -52,15 +52,15 @@ h1 {
   justify-content: flex-end;
   padding: 30px 0;
   z-index: 1;
-  height: 46px;
+  height: 60px;
 
   button {
     margin-right: 30px;
-    padding: 5px 20px;
+    padding: 5px 40px;
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50px;
-    font-size: 25px;
+    font-size: 35px;
 
     &:focus {
       outline: none;
@@ -76,4 +76,17 @@ h1 {
 
 .indent {
   text-indent: 80px;
+}
+
+.seperator {
+  box-shadow: 0px 3px 4px 0 #9e9e9e;
+}
+
+a {
+  color: $black;
+  font-style: italic;
+
+  &.pdf {
+    color: $red;
+  }
 }

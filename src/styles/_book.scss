@@ -11,8 +11,15 @@
             .end {
                 display: flex;
 
+                &__arrow {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 200px;
+                }
+
                 .icon {
-                    width: 100px;
+                    transform: rotate(90deg);
                 }
             }
         }
