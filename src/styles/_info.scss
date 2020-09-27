@@ -9,6 +9,10 @@
 
             .kleinGedrucktes {
                 font-size: 10px;
+
+                @media (max-width: $breakpoint) {
+                    font-size: 6px;
+                }
             }
         }
 
