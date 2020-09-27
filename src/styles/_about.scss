@@ -11,6 +11,10 @@
             flex-direction: column;
             justify-content: space-between;
 
+            @media (max-width: $breakpoint) {
+                justify-content: flex-end;
+            }
+
             img {
                 max-height: calc(50vh - 110px);
                 object-fit: cover;

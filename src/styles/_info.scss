@@ -7,6 +7,10 @@
             flex-direction: column;
             justify-content: space-between;
 
+            @media (max-width: $breakpoint) {
+                justify-content: flex-end;
+            }
+
             .kleinGedrucktes {
                 font-size: 10px;
 
@@ -17,7 +21,6 @@
         }
 
         &--left {
-
         }
     }
 }

@@ -8,6 +8,10 @@
             justify-content: space-between;
             align-items: flex-end;
 
+            @media (max-width: $breakpoint) {
+                justify-content: flex-end;
+            }
+
             img {
                 object-fit: contain;
 
