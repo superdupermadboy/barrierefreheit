@@ -6,10 +6,14 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            align-items: flex-end;
 
             img {
                 object-fit: contain;
-                width: 100%;
+
+                @media (max-width: $breakpoint) {
+                    width: 100%;
+                }
             }
         }
 

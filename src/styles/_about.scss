@@ -34,6 +34,10 @@
 
         &.seperator {
             width: auto;
+
+            @media (max-width: $breakpoint) {
+                width: 200%;
+            }
         }
     }
 }
